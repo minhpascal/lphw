@@ -3,6 +3,8 @@ class Animal(object):
     pass
 
 # Dog is-a Animal
+
+
 class Dog(Animal):
 
     def __init__(self, name):
@@ -10,6 +12,8 @@ class Dog(Animal):
         self.name = name
 
 # Cat is-a Animal
+
+
 class Cat(Animal):
 
     def __init__(self, name):
@@ -17,6 +21,8 @@ class Cat(Animal):
         self.name = name
 
 # Person is-a object
+
+
 class Person(object):
 
     def __init__(self, name):
@@ -27,6 +33,8 @@ class Person(object):
         self.pet = None
 
 # Employee is-a Person
+
+
 class Employee(Person):
 
     def __init__(self, name, salary):
@@ -36,14 +44,20 @@ class Employee(Person):
         self.salary = salary
 
 # Fish is-a object
+
+
 class Fish(object):
     pass
 
 # Salmon is-a Fish
+
+
 class Salmon(Fish):
     pass
 
 # Halibut is-a Fish
+
+
 class Halibut(Fish):
     pass
 
